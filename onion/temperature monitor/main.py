@@ -51,7 +51,7 @@ def __main__():
     	print("- - - - - - - - - - - - ERROR - - - - - - - - - - - - - -")
     	print(ValueError)
     print("- - - - - - - - - - - - DONE - - - - - - - - - - - - - -")
-    print(r)
+    print(r).argv[1]
 
 	
     # write to oled screen
